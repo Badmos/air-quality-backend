@@ -52,7 +52,7 @@ OpenAPI documentation is available via `http://localhost:6061/docs/`
 
  To ensure API versioning, all resource endpoints are mounted on /v1, therefore, to access the endpoints, append `/v1` to the host like so: `http://localhost:6061/v1`. For example, to get air quality for Paris, navigate to `http://localhost:6061/v1/air-quality?latitude=48.856613&longitude=2.352222`.
 
-### Enpoints
+### Endpoints
 - [GET] `http://localhost:6061/v1/air-quality` (Expected query params - `latitude:` number, `longitude`: number). Get air quality data. The air quality data persisted in the database is the US standard, i.e., aqius.
 - [GET] `http://localhost:6061/v1/air-quality/datetime/most-polluted`. Get the most polluted time period in Paris
 
